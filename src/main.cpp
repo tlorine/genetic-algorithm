@@ -3,6 +3,8 @@
 #include <iostream>
 #include <time.h>
 
+using namespace std;
+
 int main()
 {
     srand(time(NULL));
@@ -13,8 +15,6 @@ int main()
     wrld.settlement();
     wrld.scatter(FOOD, 100);
     wrld.scatter(POIS, 30);
-    //wrld.write_map();
-    wrld.live(100);
-    wrld.write_map();
+    wrld.live(1);
     wrld.delete_world();
 }

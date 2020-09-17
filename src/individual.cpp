@@ -57,7 +57,6 @@ int Individual::get_points()
 
 int Individual::get_brain()
 {
-    std::cout << "get_brain" << std::endl;
     return (brain);
 }
 
@@ -68,7 +67,6 @@ int Individual::get_health()
 
 bool Individual::is_edible(int type)
 {
-    std::cout << "is_edible" << std::endl;
     if (type == FOOD || (type == POIS && !(brain & POISON_EAT)) || (type == IND && (brain & HUNT)))
         return true;
     else
@@ -82,6 +80,5 @@ void Individual::eat()
 
 void Individual::die()
 {
-    std::cout << "SAM DIE\n";
     health = 0;
 }

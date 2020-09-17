@@ -1,3 +1,6 @@
+#ifndef STACH_H
+# define STACH_H
+
 typedef struct s_stack
 {
     int x;
@@ -18,3 +21,5 @@ public:
     t_stack *get_elem();
     ~stack();
 };
+
+#endif

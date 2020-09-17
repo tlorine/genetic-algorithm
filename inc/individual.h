@@ -1,7 +1,7 @@
 #ifndef INDIVIDUAL_H
-#define INDIVIDUAL_H
+# define INDIVIDUAL_H
 
-#include "individual_config.h"
+# include "individual_config.h"
 
 class Individual
 {

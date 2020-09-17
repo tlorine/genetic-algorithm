@@ -1,8 +1,8 @@
 #ifndef WORLD_H
-#define WORlD_H
+# define WORlD_H
 
-#include "individual.h"
-#include "stack.h"
+# include "individual.h"
+# include "stack.h"
 
 # define WORLD_SIZE 100
 

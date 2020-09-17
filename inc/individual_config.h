@@ -1,7 +1,7 @@
 #ifndef INDIVIDUAL_CONFIG_H
-#define INDIVIDUAL_CONFIG_H
+# define INDIVIDUAL_CONFIG_H
 
-# define HEALTH 60
+# define HEALTH 1000
 # define EAT_ENERGY 60
 /*
 ** BRAIN_CONFIG
